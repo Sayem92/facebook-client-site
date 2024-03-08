@@ -10,7 +10,7 @@ const Login = () => {
   };
   return (
     <div>
-      <div className=" bg-gradient-to-br  from-blue-50 to-indigo-100 flex justify-center items-center w-full">
+      <div className=" bg-gradient-to-br  from-blue-50 to-indigo-100 flex justify-center items-center w-full pt-6 pb-20">
         <form>
           <h1 className="mb-4 text-center text-5xl font-bold text-blue-600">
             facebook
@@ -41,7 +41,7 @@ const Login = () => {
                   onClick={togglePasswordVisibility}
                 />
               </div>
-              <p className="text-blue-500 text-center">Forgot account?</p>
+              <p className="text-blue-500 text-center underline">Forgot account?</p>
             </div>
             <button className="mt-4 w-full bg-blue-600  text-white py-3 rounded-md text-lg tracking-wide font-semibold">
               Log In
