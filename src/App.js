@@ -1,10 +1,11 @@
-import './App.css';
-import Register from './components/Form/Register';
+import { RouterProvider } from "react-router-dom";
+import "./App.css";
+import { router } from "./routes/Routes";
 
 function App() {
   return (
     <div>
-    <Register></Register>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 }
